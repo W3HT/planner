@@ -5,7 +5,7 @@ var saveButton = $(".saveBtn")
 
 // get date
 $(document).ready(function () {
-    var date = moment().format("dddd MMMM do YYYY");
+    var date = moment().format("dddd MMMM DD YYYY");
 
     $("#currentDay").text(date);
 
